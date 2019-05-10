@@ -2,13 +2,13 @@
 <manifest>
 
 	<!-- Device -->
-	<project name="chil360/android_device_motorola_osprey" path="device/motorola/osprey" remote="github" revision="du-p9x" />
-	<project name="chil360/android_device_motorola_msm8916-common" path="device/motorola/msm8916-common" remote="github" revision="du-p9x" />
-	<project name="chil360/android_kernel_motorola_msm8916" path="kernel/motorola/msm8916" remote="github" revision="9.0" />
-	<project name="chil360/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="9.0" />
+	<project name="shan9656/android_device_motorola_osprey" path="device/motorola/osprey" remote="github" revision="du-p9x" />
+	<project name="shan9656/android_device_motorola_msm8916-common" path="device/motorola/msm8916-common" remote="github" revision="du-p9x" />
+	<project name="shan9656/android_kernel_motorola_msm8916" path="kernel/motorola/msm8916" remote="github" revision="9.0" />
+	<project name="shan9656/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="9.0" />
 
 	<!-- Sepolicy -->
-	<project name="chil360/device_qcom_sepolicy-legacy" path="device/qcom/sepolicy-legacy" remote="github" revision="du-p9x" />
+	<project name="shan9656/device_qcom_sepolicy-legacy" path="device/qcom/sepolicy-legacy" remote="github" revision="du-p9x" />
 
 	<!-- Device dependencies -->
 	<project name="LineageOS/android_system_tools_dtbtool" path="system/tools/dtbtool" remote="github" revision="lineage-16.0" />
@@ -17,7 +17,7 @@
 	<project path="system/qcom" name="DirtyUnicorns/android_system_qcom" remote="github" revision="p9x-caf" />
 
 	<!-- MSM8916 HALS -->
-	<project path="hardware/qcom/audio-caf/msm8916" name="chil360/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="github" revision="du-p9x-caf-8916" />
+	<project path="hardware/qcom/audio-caf/msm8916" name="shan9656/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="github" revision="du-p9x-caf-8916" />
 	<project path="hardware/qcom/display-caf/msm8916" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="lineage-16.0-caf-8916" />
 	<project path="hardware/qcom/media-caf/msm8916" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" remote="github" revision="lineage-16.0-caf-8916" />
 
@@ -30,6 +30,6 @@
         <project path="hardware/qcom/power" name="GZOSP/hardware_qcom_power" remote="github" revision="9.0" />
 
 	<!-- ARM Developer GCC 8.3 kernel toolchain -->
-	<project name="chil360/prebuilts_gcc_linux-x86_arm_arm-eabi-8.3" path="prebuilts/gcc/linux-x86/arm/arm-eabi-8.3" remote="github" revision="master" />
+	<project name="shan9656/prebuilts_gcc_linux-x86_arm_arm-eabi-8.3" path="prebuilts/gcc/linux-x86/arm/arm-eabi-8.3" remote="github" revision="master" />
 
 </manifest>
